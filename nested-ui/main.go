@@ -8,7 +8,7 @@ import (
 
 func main() {
 	BeginWindow(800, 450, "raylib [core] example - basic")
-	font := rl.LoadFont("assets/regular.ttf")
+	font := rl.LoadFont("../assets/regular.ttf")
 	rl.SetTargetFPS(60)
 
 	for !rl.WindowShouldClose() {
@@ -18,7 +18,7 @@ func main() {
 
 		BeginFrame(10, 10, 50, 50)
 		BeginFrame(5, 5, 10, 10)
-		//DrawRect(0,0,20,20)
+		DrawRect(0,0,20,20)
 		EndFrame()
 		EndFrame()
 		
